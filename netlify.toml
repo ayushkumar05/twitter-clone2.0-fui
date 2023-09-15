@@ -3,15 +3,15 @@
     command = "sed -i s@API_PLACEHOLDER@${REACT_APP_API_SERVER}@g netlify.toml && CI= npm run build"
 [[redirects]]
     from = "/api/*"
-    to = "https://twitter-clone2-0-94pj.onrender.com/api/:splat"
+    to = "/api/:splat"
     status = 200
 [[redirects]]
     from = "/auth/*"
-    to = "https://twitter-clone2-0-94pj.onrender.com/auth/:splat"
+    to = "/auth/:splat"
     status = 200
 [[redirects]]
     from = "/img/*"
-    to = "https://twitter-clone2-0-94pj.onrender.com/img/:splat"
+    to = "/img/:splat"
     status = 200
 
 [[redirects]]
