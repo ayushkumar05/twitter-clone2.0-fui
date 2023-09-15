@@ -70,12 +70,12 @@ class Login extends React.Component {
                             alt="people vector"
                         />
                         <Figure.Caption as="a" href="https://www.freepik.com/free-photos-vectors/people">
-                            <small className="text-muted text-wrap">People vector created by pikisuperstar - www.freepik.com</small>
+                            <small className="text-muted text-wrap"></small>
                         </Figure.Caption>
                     </Figure>
                 )}
                 <h5 className="font-weight-bolder mt-3">
-                    Login to see what’s happening in the muzamilverse right now
+                    Login to see what’s happening in the world right now.
                 </h5>
                 <fieldset disabled={disabled}>
                     <Form onSubmit={this.handleSubmit} >
