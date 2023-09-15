@@ -25,12 +25,12 @@ function Sidebar() {
                         className="text-muted text-dark text-truncate d-block"
                         href="https://www.freepik.com/free-photos-vectors/people"
                     >
-                        People vector created by studiogstock - www.freepik.com
+                        
                     </a>
                 </small>
                 <p className="text-black font-weight-bold mb-0 mt-1">
-                    <a className="text-monospace" href="https://github.com/muzam1l/tclone">
-                        Tclone, the twitter clone
+                    <a className="text-monospace" href="">
+                        TwitHub, The Twitter Clone
                     </a>
                 </p>
                 <div className="text-muted mb-1 mt-n1">
