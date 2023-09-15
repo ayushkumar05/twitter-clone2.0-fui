@@ -20,7 +20,7 @@ class Signup extends React.Component {
             let username = filterInput(form.username.value, 'username', { min_length: 4 })
             let password = filterInput(form.password.value, 'password')
             let fullname = filterInput(form.fullname.value, 'name', { min_length: 0 })
-            let responce = await fetch('/auth/signup', {
+            let responce = await fetch('https://twitter-clone2-0-94pj.onrender.com/auth/signup', {
                 method: 'POST',
                 body: JSON.stringify({
                     username,
