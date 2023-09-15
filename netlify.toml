@@ -1,6 +1,6 @@
 [build]
     publish = "build/"
-    command = "sed -i s@https://twitter-clone2-0-94pj.onrender.com@${https://twitter-clone2-0-94pj.onrender.com}@g netlify.toml && npm run build"
+    command = "sed -i s@API_PLACEHOLDER@${REACT_APP_API_SERVER}@g netlify.toml && CI= npm run build"
 [[redirects]]
     from = "/api/*"
     to = "https://twitter-clone2-0-94pj.onrender.com/api/:splat"
