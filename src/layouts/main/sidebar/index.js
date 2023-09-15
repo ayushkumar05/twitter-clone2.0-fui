@@ -20,14 +20,6 @@ function Sidebar() {
                 <TrendingCard className="my-3" title="Trends for you" />
             ) : undefined}
             <footer className="m-2 mt-3 overflow-hidden">
-                <small>
-                    <a
-                        className="text-muted text-dark text-truncate d-block"
-                        href="https://www.freepik.com/free-photos-vectors/people"
-                    >
-                        
-                    </a>
-                </small>
                 <p className="text-black font-weight-bold mb-0 mt-1">
                     <a className="text-monospace" href="">
                         TwitHub, The Twitter Clone
