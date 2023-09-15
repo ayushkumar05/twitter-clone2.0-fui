@@ -33,7 +33,6 @@ export default (props) => {
                 {!props.compact && (
                     <Figure className="d-flex flex-column align-items-end">
                         <Figure.Image src="/img/explore-thumb-vector.svg" alt="" />
-                        <Figure.Caption><small><a className="text-muted font-weight-lighter" href="https://www.freepik.com/free-photos-vectors/brochure"></a></small></Figure.Caption>
                     </Figure>
                 )}
                 <Trends />
