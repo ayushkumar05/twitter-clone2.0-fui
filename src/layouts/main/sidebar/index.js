@@ -21,9 +21,7 @@ function Sidebar() {
             ) : undefined}
             <footer className="m-2 mt-3 overflow-hidden">
                 <p className="text-black font-weight-bold mb-0 mt-1">
-                    <a className="text-monospace">
-                        TwitHub, The Twitter Clone
-                    </a>
+                    <a>TwitHub, The Twitter Clone</a>
                 </p>
                 <div className="text-muted mb-1 mt-n1">
                     <small>v{process.env.REACT_APP_VERSION}</small>
